@@ -3,6 +3,8 @@
         "symfony/class-loader": "^3.0",
         "symfony/event-dispatcher": "^3.0",
         "symfony/http-kernel": "^3.0",
-        "symfony/routing": "^3.0"
+        "symfony/routing": "^3.0",
+        "doctrine/dbal": "^2.5",
+        "monolog/monolog": "^1.17"
     }
 }
