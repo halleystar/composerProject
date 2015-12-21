@@ -13,7 +13,7 @@ require 'vendor/autoload.php';
 error_reporting(-1);
 // Debug::enable();
 
-echo 5/0;
+// echo 5/0;
 $loader = new Psr4ClassLoader();
 $loader->addPrefix('Maqiang\\Controller\\',  __DIR__.'/Controller');
 $loader->addPrefix('Maqiang\\Event\\',  __DIR__.'/Event');
