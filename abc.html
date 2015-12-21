@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="build/react.js"></script>
+<script src="build/JSXTransformer.js"></script>
+</head>
+<body>
+	<div id="container"></div>
+	<div id="container1"></div>
+	<div id="container2"></div>
+	<div id="container4"></div>
+	<div id="container5"></div>
+	<script type="text/jsx">
+	/*组件复用*/
+ 	var Search = React.createClass({
+			render: function () {
+				return (<div>
+					{this.props.searchType}:<input type="text" /> 
+					<button>Search</button>
+					</div>);
+			}
+	});
+	var Page = React.createClass({
+			render: function (){
+				return	(<div>
+						<h1>Welcome!</h1>
+					   <Search searchType = "Title"  />
+					  <Search  searchType = "Content" />
+				</div>);
+			}
+	});
+
+	React.render(<Page  />,  document.getElementById('container5'));
+</script>
+</body>
+</html>
