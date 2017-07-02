@@ -2,8 +2,6 @@
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Controller\ControllerResolver;
-use Symfony\Component\HttpKernel\HttpKernel;
-use Maqiang\Event\RouteSubcriber;
 use Symfony\Component\Debug\Debug;
 
 require 'vendor/autoload.php';
