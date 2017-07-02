@@ -419,12 +419,6 @@ $a = [
         'email' => '123@qq.com',
         'age' => 20,
         'password' => 123
-    ],
-    [
-        'name' => 'c',
-        'email' => '123@qq.co;m',
-        'age' => 20,
-        'password' => 123
     ]
 ];
 echo json_encode($a);
