@@ -1,5 +1,4 @@
 <?php
-// echo json_encode(array (
 // 'role' =>
 // array (
 // '外部用户' =>

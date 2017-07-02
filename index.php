@@ -1,6 +1,5 @@
 <?php
 
-use Symfony\Component\ClassLoader\Psr4ClassLoader;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Controller\ControllerResolver;
 use Symfony\Component\HttpKernel\HttpKernel;
